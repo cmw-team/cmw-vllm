@@ -407,6 +407,8 @@ VLLM_API_KEY=EMPTY
 
 Then `cmw-rag` will connect to the vLLM server via HTTP (OpenAI-compatible API).
 
+ChromaDB (vector store) runs as a systemd user service — `cmw-rag-chroma.service` in the cmw-rag repo (`systemd/cmw-rag-chroma.service`).
+
 ## Testing
 
 The repository includes comprehensive tests for inference, tool calling, and pooling models.
